@@ -1,0 +1,338 @@
+:root{
+    --white:white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+#home{
+    top: 0;
+    z-index: 10;
+    color: white;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, rgb(1, 97, 1), green);
+    padding: 0 !important;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.fa-bars{
+    color: var(--white);
+    font-size: 30px !important;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+/* banner section */
+#banner{
+    background-image: linear-gradient(to right, rgb(1, 97, 1), green);
+    color: var(--white);
+    padding-top: 5%;
+}
+
+.promo-title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+.play-btn{
+    width: 35px;
+    margin: 10px;
+}
+
+.get-btn{
+    width: 20px;
+    margin: 10px;
+}
+
+#banner a{
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.img-fluid{
+    margin-top: 35px;
+}
+
+.bottom-img{
+    width: 100%;
+}
+
+/* About Section */
+#about{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    margin-top: 55px;
+}
+
+#about h1{
+    font-weight: 600;
+    color: darkgreen;
+}
+
+.about-start{
+    background-image: url(../Assets/img/Bg_About.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.about-start p{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.p1 img{
+    width: 35px;
+}
+
+.grid{
+    background-color: rgb(241, 241, 241);
+    width: 100%;
+    margin-left: auto;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.grid p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.carousel{
+    width: 90%;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.dwn-app{
+    font-size: 25px;
+    margin-top: 50px;
+    background-color: rgb(231, 231, 231);
+    width: 95%;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dwn-app a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bunder-ios{
+    background-color: rgb(20, 91, 139);
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bunder-ios i{
+    margin-top: 15px;
+    font-size: 40px;
+    color: white;
+}
+
+.bunder-ios p{
+    margin-top: 40px;
+}
+
+
+.bunder{
+    background-color: rgb(20, 139, 30);
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bunder i{
+    margin-top: 15px;
+    font-size: 40px;
+    color: white;
+}
+
+.bunder p{
+    margin-top: 40px;
+}
+
+.bunder-windows{
+    background-color: rgb(20, 139, 30);
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bunder-windows i{
+    margin-top: 15px;
+    font-size: 40px;
+    color: white;
+}
+
+.bunder-windows p{
+    margin-top: 40px;
+}
+
+/* Services Section */
+#services{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    margin-top: 55px;
+}
+
+#services h1{
+    font-weight: 600;
+    color: darkgreen;
+}
+
+.grid-services{
+    margin-top: 40px;
+}
+
+.isi-grid{
+    background-color: rgb(230, 230, 230);
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.image-circle{
+    background-color: darkblue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+}
+
+.image-circle img{
+    margin-top: 15px;
+    margin-right: 5px;
+    width: 70px;
+    height: 70px;
+}
+
+.isi-grid b{
+    font-size: 18px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.isi-grid p{
+    width: 95%;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.isi-services{
+    text-align: left;
+    width: 95%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.unggul{
+    background-color: green;
+    color: rgb(226, 226, 226);
+}
+
+/* Footer Section */
+#footer{
+    background-image: linear-gradient(to right, rgb(1, 97, 1), green);
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    align-items: center;
+}
+
+.grid-footer{
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mailmu{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.akhir-end a{
+    font-size: 18px;
+    color: rgb(187, 187, 187);
+    text-decoration: none;
+    margin-left: -20px;
+}
+
+.akhir-end ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.btn-bantuan{
+    background-color: transparent;
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    margin-left: auto;
+}
+
+.wa{
+    background-color: darkgreen;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    box-shadow: 2px 3px 5px darkgreen;
+}
+
+.wa i{
+    color: white;
+}
+
+.wa:hover{
+    background-color: green;
+}

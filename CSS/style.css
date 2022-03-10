@@ -1,0 +1,222 @@
+:root{
+    --header: rgb(241, 239, 239);
+    --navbar: rgb(224, 224, 224);
+    --color-white: white;
+    --color-utama: darkgreen;
+    --color-title: black;
+    --color-blue: darkblue;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-white);
+    text-align: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    background-color: var(--color-utama);
+    height: max-content;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.header img{
+    width: 35px;
+}
+
+.header a{
+    color: var(--color-white);
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.navbar{
+    font-size: 12px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: var(--navbar);
+}
+
+.navbar svg{
+    color: grey;
+}
+
+main{
+    margin-top: 80px;
+    text-align: center;
+}
+
+/* Home Section */
+#home {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: var(--color-white);
+}
+
+#home b{
+    font-size: xx-large;
+    color: var(--color-title);
+}
+
+#home p{
+    font-size: small;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-all{
+    background-image: url(/Assets/img/Ilustrasi1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 210px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.btn-all ul li{
+    list-style: none;
+}
+
+.btn-app {
+    width: 130px;
+    border-style: none;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.btn-ui {
+    width: 130px;
+    border-style: none;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.card{
+    background-color: var(--navbar);
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.card-img-top{
+    width: 100px;
+    border-radius: 100%;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-name{
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.card-text{
+    margin-top: -15px;
+    font-size: 14px;
+}
+
+.btn-cnt{
+    margin-top: 25px;
+    border-radius: 6px;
+    border-style: none;
+    font-size: large;
+}
+
+/* banner section */
+
+.col-isi{
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
+.promo-title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+.play-btn{
+    width: 35px;
+    margin: 10px;
+}
+
+.get-btn{
+    width: 20px;
+    margin: 10px;
+}
+
+#banner b{
+    color: var(--color-title);
+}
+
+#banner p{
+    color: var(--color-title);
+    font-size: small;
+}
+
+.img-fluid{
+    margin-top: 30px;
+}
+
+.card-content{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* HOME CENTER */
+
+/* HOME END */
+
+
+/* BTN UP */
+.up{
+    width: 30px;
+    border-radius: 100%;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: 15px;
+    scroll-behavior: smooth;
+}
+
+.up a{
+    color: var(--color-utama);
+}
+
+.up i{
+    margin-top: 8.5px;
+    width: 45px;
+    height: 45px;
+    font-size: 40px;
+    border-color: var(--color-utama);
+    border-style: groove;
+    border-radius: 100%;}
+
+.up a:hover {
+    color: var(--header);
+    border-radius: 100%;
+    transition: .5s;
+}
