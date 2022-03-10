@@ -79,7 +79,7 @@ main{
 }
 
 .btn-all{
-    background-image: url(/Assets/img/Ilustrasi1.png);
+    background-image: url(.../Assets/img/Ilustrasi1.png);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 210px;
